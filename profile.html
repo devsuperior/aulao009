@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu perfil</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <style>
+    body,
+    html {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      font-family: "Montserrat";
+      font-weight: 700;
+    }
+
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+    img {
+      width: 15rem;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav {
+      max-width: 1200px;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbar-brand {
+      font-size: 30px;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    ul a {
+      text-transform: uppercase;
+      padding: 1rem;
+      font-size: 16px;
+      display: block;
+    }
+
+    ul a:hover {
+      color: #1abc9c;
+    }
+
+    ul li {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+
+    .main-content {
+      background-color: #1abc9c;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+    }
+
+    .content {
+      padding-top: 6rem;
+      max-width: 1200px;
+      text-align: center;
+      color: #FFF;
+    }
+
+    .content-title {
+      font-size: 64px;
+    }
+
+    .content-description {
+      font-size: 24px;
+    }
+
+    .portfolio {
+      padding-top: 30px;
+    }
+
+    .portfolio-title {
+      font-size: 48px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .portfolio {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+    }
+
+    .portfolio-container {
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+    }
+
+    .portfolio-item {
+      width: 330px;
+      height: 240px;
+      margin: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="" class="navbar-brand">WASHINGTON SOARES</a>
+      <ul>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="main-content">
+    <div class="content">
+      <div class="content-avatar">
+        <img src="images/profile1.svg" alt="Meu perfil">
+      </div>
+      <h1 class="content-title">Washington Soares</h1>
+      <h3 class="content-description">Frontend - JavaScript - React</h3>
+    </div>
+  </section>
+  <div class="portfolio">
+    <h1 class="portfolio-title">Portfolio</h1>
+    <div class="portfolio-container">
+      <img class="portfolio-item" src="images/portfolio1.png" alt="Portfolio 1">
+      <img class="portfolio-item" src="images/portfolio2.png" alt="Portfolio 2">
+      <img class="portfolio-item" src="images/portfolio3.png" alt="Portfolio 3">
+      <img class="portfolio-item" src="images/portfolio4.png" alt="Portfolio 4">
+      <img class="portfolio-item" src="images/portfolio5.png" alt="Portfolio 5">
+      <img class="portfolio-item" src="images/portfolio6.png" alt="Portfolio 6">
+    </div>
+  </div>
+</body>
+
+</html>
