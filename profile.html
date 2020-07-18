@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu perfil</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <style>
+    /* usar CSS variables */
+    body, html {
+      padding: 0;
+      margin: 0;
+      font-family: "Montserrat";
+      font-weight: 700;
+      height: 100%;
+    }
+
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+    img {
+      width: 15rem;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav {
+      max-width: 1200px;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbar-brand {
+      font-size: 30px;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    ul a {
+      text-transform: uppercase;
+      padding: 1rem;
+      font-size: 16px;
+      display: block;
+    }
+
+    ul a:hover {
+      color: #1abc9c;
+    }
+
+    ul li {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+
+    section {
+      background-color: #1abc9c;
+      display: flex;
+      justify-content: center;
+      height: calc(100% - 120px);
+    }
+
+    .content {
+      padding-top: 6rem;
+      max-width: 1000px;
+      text-align: center;
+      color: #FFF;
+    }
+
+    .content-avatar {
+      /* text-align: center; */
+      display: flex;
+      justify-content: center;
+    }
+
+    .content-title {
+      font-size: 64px;
+    }
+
+    .content-description {
+      font-size: 24px;
+    }
+ 
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="" class="navbar-brand">WASHINGTON SOARES</a>
+      <ul>
+        <li><a href="">Portifolio</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="content">
+      <div class="content-avatar">
+        <img src="boy.svg" alt="Meu perfil">
+      </div>
+      <h1 class="content-title">Washington Soares</h1>
+      <h3 class="content-description">Frontend - JavaScript - React</h3>
+    </div>
+  </section>
+</body>
+</html>
