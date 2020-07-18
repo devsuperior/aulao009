@@ -1,66 +1,37 @@
-- Hello World!
-  - https://codepen.io/Js28130-Crypto/pen/yLeyPEV
+# HTML e CSS para iniciantes - Aulão #009
+###### DevSuperior - sua carreira dev com fundamento de ensino superior
 
-- usar font Roboto
--       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+**Comunidade no Discord**:
+https://discord.gg/SbjpsFv
 
-- falar bastante sobre o uso das tags do HTML5, semântica, etc
+Não perca as novidades:
+- https://instagram.com/devsuperior.ig
+- https://facebook.com/devsuperior.fb
+- https://youtube.com/devsuperior
+- https://twitter.com/devsuperior
 
-- O que é HTML
-  - estruturar uma página web
+Assista o vídeo desta aula:
 
-O conceito de hipertexto foi criado em 1990.
-Quando tudo surgiu existiam uma página web era compostas apenas de textos links e imagens
-De lá pra cá muita coisa mudou
-A web se modernizou, se tornando mais interativa e hoje em dia já existem uma série de tecnologias e frameworks que facilitam/ajudam o desenvolvimento web.
-mas antes de mergulhar nesse universo de frameworks/bibliotecas é necessário entender alguns conceitos que são fundamentais no desenvolvimento web.
+[![Image](https://raw.githubusercontent.com/devsuperior/aulao009/class-structure/thumbnail.jpg "Vídeo no Youtube")](https://www.youtube.com/c/DevSuperior)
 
-Uma página web moderna é composta de 3 pilares principais, por enquanto a gente vai falar sobre HTML e CSS. Mas em breve eu vou fazer um vídeo bem explicadinho sobre os primeiros passos no JavaScript.
+## Sumário
+- [O que você vai aprender](#O-que-você-vai-aprender)
+- [Pré-requisitos](#pré-requisitos)
+- [Objetivo da aula](#Objetivo-da-aula)
+- [Exemplo](#Exemplo)
+ 
 
-Fazer um hello world somente com texto
+## O que você vai aprender
+- Conceitos iniciais de HTML e CSS
+- Criando nosso _"Hello world"_
+- Estrutura de uma página moderna com HTML5
+- Estilizando a página com CSS
 
-Um arquivo HTML normalmente é salvo com uma extensão .htm ou .html, é disponibilizado por um servidor web, e pode ser renderizado por qualquer navegador.
+## Pré-requisitos
 
-- Cabeçalho
-  - título
-  - CSS
-- corpo
-  - estrutura de uma tag
-Um documento HTML é um documento de texto simples estruturado com elementos. Elementos são acompanhados de abertura e fechamento de tags. Cada tag começa e termina com
-"colchetes angulares (<>)"
+- ~~Noções de lógica de programação~~
+- Apenas sua força de vontade =)
 
-Existem algumas tags vazias ou sem conteúdo que não podem incluir qualquer texto, como por exemplo a tag <img>
+## Objetivo da aula
 
-Você pode estender tags HTML com atributos, os quais fornecem informações adicionais que afetam como o navegador interpreta o elemento:
-
-    - nome
-    - atributo
-    - conteúdo
-    - tag de fechamento
-  - links
-    - hypertext reference
-    - falar sobre targets
-    - comportamento padrão
-    - _blank abrir nova aba
-  - listas
-    - listas ordenadas
-    - listas não ordenadas
-  - cabeçalhos
-    - from h1 to h6
-  - parágrafo
-    - preenchimento ou texto fictício
-    - Lorem ipsum
-  - mídias
-      - imagens
-        - pegar imagem github
-        - salvar imagem e importar local
-      - vídeo
-      - áudio
-  - animação
-    - hover na logo do HTML e fazer animação com CSS
-  - semântica
-    - buscadores
-  - CSS
-    - usar variáveis
-    - flexbox
-    
+Recriar, passo a passo, o layout o site https://startbootstrap.github.io/startbootstrap-freelancer
