@@ -17,9 +17,7 @@ Assista o vídeo desta aula:
 ## Sumário
 - [O que você vai aprender](#O-que-você-vai-aprender)
 - [Pré-requisitos](#pré-requisitos)
-- [Objetivo da aula](#Objetivo-da-aula)
-- [Exemplo](#Exemplo)
- 
+- [Objetivo da aula](#Objetivo-da-aula) 
 
 ## O que você vai aprender
 - Conceitos iniciais de HTML e CSS
@@ -34,4 +32,4 @@ Assista o vídeo desta aula:
 
 ## Objetivo da aula
 
-Recriar, passo a passo, o layout o site https://startbootstrap.github.io/startbootstrap-freelancer
+Recriar, passo a passo, o layout o site: https://startbootstrap.github.io/startbootstrap-freelancer
