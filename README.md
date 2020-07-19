@@ -26,7 +26,6 @@ Assista o vídeo desta aula:
 
 ## Pré-requisitos
 
-- ~~Noções de lógica de programação~~
 - Editor de texto (Recomendo o VSCode)
 - Básico de Git e Github
 
