@@ -21,7 +21,6 @@ Assista o vídeo desta aula:
 
 ## O que você vai aprender
 - Conceitos iniciais de HTML e CSS
-- Criando nosso _"Hello world"_
 - Estrutura de uma página moderna com HTML5
 - Estilizando a página com CSS
 
