@@ -12,7 +12,7 @@ Não perca as novidades:
 
 Assista o vídeo desta aula:
 
-[![Image](https://raw.githubusercontent.com/devsuperior/aulao009/class-structure/thumbnail.jpg "Vídeo no Youtube")](https://www.youtube.com/c/DevSuperior)
+[![Image](https://raw.githubusercontent.com/devsuperior/aulao009/master/thumbnail.jpg "Vídeo no Youtube")](https://www.youtube.com/c/DevSuperior)
 
 ## Sumário
 - [O que você vai aprender](#O-que-você-vai-aprender)
