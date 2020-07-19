@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu perfil</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
   <style>
     body,
     html {
@@ -17,27 +17,22 @@
     }
 
     a {
-      color: #FFF;
+      color: white;
       text-decoration: none;
-    }
-
-    img {
-      width: 15rem;
+      text-transform: uppercase;
     }
 
     header {
       background-color: #2c3e50;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      display: flex;
-      justify-content: center;
+      height: 100px;
     }
 
     nav {
-      max-width: 1200px;
-      width: 100%;
-      align-items: center;
+      width: 1100px;
+      height: 100%;
+      margin: 0 auto;
       display: flex;
+      align-items: center;
       justify-content: space-between;
     }
 
@@ -45,47 +40,50 @@
       font-size: 30px;
     }
 
-    ul {
+    .menu-items {
       display: flex;
       list-style-type: none;
     }
 
-    ul a {
-      text-transform: uppercase;
-      padding: 1rem;
+    .menu-items a {
+      padding: 15px;
       font-size: 16px;
       display: block;
     }
 
-    ul a:hover {
+    .menu-items a:hover {
       color: #1abc9c;
     }
 
-    ul li {
-      margin-left: 0.25rem;
-      margin-right: 0.25rem;
+    .menu-items li {
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
-    .main-content {
+    .profile-container {
       background-color: #1abc9c;
       display: flex;
       justify-content: center;
       padding-bottom: 50px;
+      padding-top: 95px;
     }
 
-    .content {
-      padding-top: 6rem;
+    .profile {
       max-width: 1200px;
       text-align: center;
       color: #FFF;
     }
 
-    .content-title {
-      font-size: 64px;
+    .profile-avatar img {
+      width: 240px;
     }
 
-    .content-description {
-      font-size: 24px;
+    .profile-title {
+      font-size: 65px;
+    }
+
+    .profile-description {
+      font-size: 25px;
     }
 
     .portfolio {
@@ -93,22 +91,22 @@
     }
 
     .portfolio-title {
-      font-size: 48px;
+      font-size: 50px;
       text-transform: uppercase;
       text-align: center;
       color: #2c3e50;
     }
 
-    .portfolio {
+    #portfolio {
       width: 1200px;
       height: 100%;
       margin: 0 auto;
     }
 
     .portfolio-container {
-      flex-wrap: wrap;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
     }
 
     .portfolio-item {
@@ -124,24 +122,24 @@
 <body>
   <header>
     <nav>
-      <a href="" class="navbar-brand">WASHINGTON SOARES</a>
-      <ul>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+      <a href="#" class="navbar-brand">Washington Soares</a>
+      <ul class="menu-items">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <section class="main-content">
-    <div class="content">
-      <div class="content-avatar">
+  <section class="profile-container">
+    <div class="profile">
+      <div class="profile-avatar">
         <img src="images/profile1.svg" alt="Meu perfil">
       </div>
-      <h1 class="content-title">Washington Soares</h1>
-      <h3 class="content-description">Frontend - JavaScript - React</h3>
+      <h1 class="profile-title">Washington Soares</h1>
+      <h3 class="profile-description">Frontend - JavaScript - React</h3>
     </div>
   </section>
-  <div class="portfolio">
+  <div id="portfolio">
     <h1 class="portfolio-title">Portfolio</h1>
     <div class="portfolio-container">
       <img class="portfolio-item" src="images/portfolio1.png" alt="Portfolio 1">
